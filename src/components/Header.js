@@ -8,6 +8,7 @@ function Header({ cartCount }) {
       <nav>
         <Link to="/">Home</Link>
         <Link to="/checkout">Cart ({cartCount})</Link>
+        <Link to="/login">Login</Link>
       </nav>
     </header>
   );
